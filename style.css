@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+body{
+    background-image: url('books.jpg');
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: auto;
+    height: 40px;
+    position: sticky;
+    padding: 20px;
+    margin: 0;
+    color: black;
+    background-color: white;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+.navbar li:hover{
+    color: crimson;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    right: 180px;
+    top: 180px;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px black;
+   
+}
+h3{
+    font-size: 25px;
+    position: absolute;
+    right: 170px;
+    top: 340px;
+    color: #f3efeb;
+    font-weight: 600;
+    text-shadow: 3px 3px 4px rgb(15, 14, 14);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
